@@ -15,6 +15,7 @@ export default function searchdemo(props) {
    
    React.useEffect(()=>{ return ()=>{changeifclick3(false)}},[]) //頁面卸載時(componentWillUnmount)，把ifclick3重新改回false
    React.useEffect(()=>{ return cleardata7() },[])
+   
 
    const[currentPage,changePage] = useState(1)    //第一個button現在是第幾頁
    const[buttonNumber,changeButton] = useState(1) //第幾個button
@@ -34,7 +35,7 @@ export default function searchdemo(props) {
     else{changePage(currentPage-5)}
    }
    
-   
+  
 
 
 
@@ -109,7 +110,7 @@ export default function searchdemo(props) {
                 <div className={buttonNumber===2 ? style.active : ""} onClick={()=>{changeButton(2)}}>{currentPage+1} </div>
                 <div className={buttonNumber===3 ? style.active : ""} onClick={()=>{changeButton(3)}}>{currentPage+2} </div>
                 <div className={buttonNumber===4 ? style.active : ""} onClick={()=>{changeButton(4)}}>{currentPage+3} </div>
-                <div className={buttonNumber===5 ? style.active : ""} onClick={()=>{changeButton(5)}}>{currentPage+4} </div>
+                <div className={buttonNumber===5 ? style.active : ""} onClick={()=>{changeButton(5)}}>{currentPage+4} </div> 
 
                 <div className={style.rightArrow} onClick={plus}><img src={[require("./fast-forward.png")]} alt=''/></div>
             </div>

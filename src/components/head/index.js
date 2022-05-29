@@ -14,9 +14,11 @@ export default function head() {
   
   
   
+  
   React.useEffect(()=>{PubSub.subscribe('GIVE U TOKEN',(_,myToken)=>{setmyToken(myToken)})},[])
   
   if (data6!==[]) {PubSub.publish('GIVE U DATA6',data6)} //data6存放search按鈕按下後拿到的數據
+  
   
   
   function search(){   //按下按鈕後，做兩件事:發出ajax請求，發布消息將firstclick改為true
