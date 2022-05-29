@@ -1,0 +1,29 @@
+.demos{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.pages div{
+    width: 60px;
+    height: 60px;
+    background-color: bisque;
+    margin-right: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+    box-shadow: 2px 2px 3px -2px rgb(0 0 0 / 25%), inset 0 -1px 4px rgb(0 0 0 / 30%);
+}
+.pages div:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 3px -2px rgb(0 0 0 / 25%), inset 3px 2px 5px rgb(0 0 0 / 30%);
+}
+.pages div.active{
+    box-shadow: 2px 2px 3px -2px rgb(0 0 0 / 25%), inset 3px 2px 5px rgb(0 0 0 / 30%);
+}
