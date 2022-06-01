@@ -1,24 +1,25 @@
 .demos{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 75px;
+    flex-wrap: wrap;
 }
 .pages{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 .pages div:not(:first-child,:last-child){
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background-color: bisque;
-    margin-right: 25px;
-    margin-left : 25px;
+    margin-right: 8px;
+    margin-left : 8px;
     border-radius: 50%;
     text-align: center;
-    line-height: 60px;
-    font-size: 22px;
+    line-height: 30px;
+    font-size: 16px;
     box-shadow: 2px 2px 3px -2px rgb(0 0 0 / 25%), inset 0 -1px 4px rgb(0 0 0 / 30%);
 }
 .pages div:not(:first-child,:last-child):hover{
@@ -34,11 +35,11 @@
 }
 
 .rightArrow , .leftArrow {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .rightArrow , .leftArrow :hover{
     cursor: pointer;
@@ -47,6 +48,85 @@
     transform: rotate(180deg);
 }
 .pages img{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+@media (min-width:700px){
+    .demos{
+       margin-top: 110px;
+    }
+    .pages{
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .pages div:not(:first-child,:last-child){
+        width: 45px;
+        height: 45px;
+        
+        margin-right: 20px;
+        margin-left : 20px;
+        border-radius: 50%;
+        line-height: 45px;
+        font-size: 20px;
+        
+    }
+    
+    
+    .rightArrow , .leftArrow {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    
+    
+    .pages img{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+
+@media (min-width:1230px){
+    .demos{
+        
+        margin-top: 150px;
+    }
+    .pages{
+        
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .pages div:not(:first-child,:last-child){
+        width: 60px;
+        height: 60px;
+        
+        margin-right: 25px;
+        margin-left : 25px;
+        border-radius: 50%;
+        
+        line-height: 60px;
+        font-size: 22px;
+       
+    
+    }
+    
+    .rightArrow , .leftArrow {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .pages img{
+        width: 60px;
+        height: 60px;
+    }
 }

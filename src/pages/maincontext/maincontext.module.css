@@ -1,9 +1,9 @@
 .allarea{
-    width: 1100px;
+    width: 348px;
     height: 1600px;
-    border-radius: 80px;
+    border-radius: 40px;
     background-color: #aaa;
-    margin: 150px auto;
+    margin: 75px auto;
     transition: all .3s;
     box-shadow: 6px 8px 20px 8px rgba(0,0,0,0.3);
 }
@@ -11,42 +11,145 @@
     overflow: hidden;
 }
 .topimg{
-    margin: 50px auto 150px;
-    width: 850px;
-    height: 500px;
+    margin: 25px auto 75px;
+    width: 325px;
+    height: 250px;
     
 }
 .topimg img{
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .ScenicSpotName ,.Address ,.OpenTime ,.TicketInfo ,.Phone ,.ActivityName ,.Location ,.Organizer ,.RestaurantName ,.Class{
     display: flex;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 .ScenicSpotName div:last-child ,.Address div:last-child ,.OpenTime div:last-child ,.TicketInfo div:last-child ,.Phone div:last-child 
 ,.ActivityName div:last-child ,.Location div:last-child ,.Organizer div:last-child ,.RestaurantName div:last-child ,.Class div:last-child{
-    margin-left: 10px;
-    font-size: 19px;
+    margin-left: 5px;
+    font-size: 17px;
 
 }
 .ScenicSpotName img ,.Address img ,.OpenTime img ,.TicketInfo img ,.Phone img ,.ActivityName img ,.Location img ,.Organizer img 
 ,.RestaurantName img ,.Class img{
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
 }
 
 .TravelInfo{
-    margin-top: -18px;
-    font-size: 15px;
-    text-indent: 22px
+    margin-top: -9px;
+    font-size: 14px;
+    text-indent: 11px
 }
 .alldescription{
-    margin-top: 120px;
-    font-size: 20px;
+    margin-top: 60px;
+    font-size: 18px;
 }
 .Description{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+@media (min-width:500px){
+    .allarea{
+        width: 80% ;
+        height: 1600px;
+        border-radius: 60px;
+        margin: 100px auto;
+        
+    }
+    
+    .topimg{
+        margin: 25px auto 100px;
+        width: 80%;
+        height: 350px;
+        
+    }
+    .topimg img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .ScenicSpotName ,.Address ,.OpenTime ,.TicketInfo ,.Phone ,.ActivityName ,.Location ,.Organizer ,.RestaurantName ,.Class{
+        
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    .ScenicSpotName div:last-child ,.Address div:last-child ,.OpenTime div:last-child ,.TicketInfo div:last-child ,.Phone div:last-child 
+    ,.ActivityName div:last-child ,.Location div:last-child ,.Organizer div:last-child ,.RestaurantName div:last-child ,.Class div:last-child{
+        margin-left: 8px;
+        font-size: 18px;
+    
+    }
+    .ScenicSpotName img ,.Address img ,.OpenTime img ,.TicketInfo img ,.Phone img ,.ActivityName img ,.Location img ,.Organizer img 
+    ,.RestaurantName img ,.Class img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .TravelInfo{
+        margin-top: -15px;
+        font-size: 14px;
+        text-indent: 16px
+    }
+    .alldescription{
+        margin-top: 90px;
+        font-size: 18px;
+    }
+    .Description{
+        margin-bottom: 22px;
+    }
+}
+
+
+@media (min-width:1150px){
+    .allarea{
+        width: 1100px;
+        height: 1600px;
+        border-radius: 80px;
+        margin: 150px auto;
+        
+    }
+   
+    .topimg{
+        margin: 50px auto 150px;
+        width: 850px;
+        height: 500px;
+        
+    }
+    .topimg img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+    .ScenicSpotName ,.Address ,.OpenTime ,.TicketInfo ,.Phone ,.ActivityName ,.Location ,.Organizer ,.RestaurantName ,.Class{
+        
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    .ScenicSpotName div:last-child ,.Address div:last-child ,.OpenTime div:last-child ,.TicketInfo div:last-child ,.Phone div:last-child 
+    ,.ActivityName div:last-child ,.Location div:last-child ,.Organizer div:last-child ,.RestaurantName div:last-child ,.Class div:last-child{
+        margin-left: 10px;
+        font-size: 19px;
+    
+    }
+    .ScenicSpotName img ,.Address img ,.OpenTime img ,.TicketInfo img ,.Phone img ,.ActivityName img ,.Location img ,.Organizer img 
+    ,.RestaurantName img ,.Class img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .TravelInfo{
+        margin-top: -18px;
+        font-size: 15px;
+        text-indent: 22px
+    }
+    .alldescription{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+    .Description{
+        margin-bottom: 30px;
+    }
 }

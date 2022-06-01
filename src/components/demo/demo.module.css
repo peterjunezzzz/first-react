@@ -4,7 +4,7 @@
     height: 350px;
     border-radius: 20px;
     background-color: #aaa;
-    margin: 50px 60px;
+    margin: 25px auto;
     transition: all .3s;
     box-shadow: 9px 8px 11px rgba(0,0,0,0.3);
    
@@ -86,4 +86,14 @@ h3::after{
 a{
     text-decoration: none ;
     color: black;
+}
+@media (min-width:700px){
+    .wrap{
+        margin: 40px 30px;
+    }
+}
+@media (min-width:1230px){
+    .wrap{
+        margin: 50px 60px;
+    }
 }
