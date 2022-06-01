@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dfca08acc799572c6ec1",
-    "url": "/first-react/static/css/main.b308a651.chunk.css"
+    "revision": "6a6e0d237fc43a7b1906",
+    "url": "/first-react/static/css/main.ce01eb89.chunk.css"
   },
   {
-    "revision": "dfca08acc799572c6ec1",
-    "url": "/first-react/static/js/main.dfca08ac.chunk.js"
+    "revision": "6a6e0d237fc43a7b1906",
+    "url": "/first-react/static/js/main.6a6e0d23.chunk.js"
   },
   {
     "revision": "3902b1cac89f18fb0fbc",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/first-react/static/media/restaurant.892b0312.png"
   },
   {
-    "revision": "c76e9473c92674a05246767c2e38d348",
+    "revision": "2a66f2f6c692fc23e44dff6adc49865c",
     "url": "/first-react/index.html"
   }
 ];
